@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ParrotTest.java",
+      "testCases": [
+        {
+          "methodName": "parrotTestHello",
+          "label": "copy returns the same string for 'hello'",
+          "description": "Verifies that Parrot class copy() method returns the exact same string when given the input \"hello\", confirming basic echo behavior."
+        },
+        {
+          "methodName": "parrotTestPolly",
+          "label": "copy returns the same string for 'polly'",
+          "description": "Verifies that Parroy class copy() method returns the exact same string when given the input \"polly\", ensuring the method consistently echoes back its input."
+        }
+      ]
+    }
+  ]
+}
