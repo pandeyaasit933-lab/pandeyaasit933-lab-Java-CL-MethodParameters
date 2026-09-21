@@ -10,6 +10,6 @@ public class Parrot {
      * @return - the value contained within the parameter named `text`
      */
     public String copy(String text){
-        return null;
+        return text ;
     }
 }
